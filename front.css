@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(shota.png);
+       
+    background-repeat: no-repeat;
+   
+    background-position: center;
+    background-attachment: fixed ;
+
+}
+
+.box {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(57, 0, 172, 0.933);
+    transition: 1s;
+
+}
+.text{
+    text-align: center;
+   
+    font-size: 36px;
+}
+.text1{
+    visibility: hidden;
+}
+.box:active{
+    width: 300px;
+    height: 270px;
+    border: 8px solid rgba(0, 0, 0, 0.459);
+   border-radius: 50%;
+   background-color: rgba(0, 0, 255, 0.516);
+   
+   .text{
+    visibility: hidden;
+   }
+   .text1{
+    font-size: auto;
+    transform:translateY(-65px);
+    visibility: visible;
+    text-align: center;
+   }
+
+}
+
+.txt{
+    transform: translateX(-60px);
+    font-size: 30px;
+    
+}
+.outinfo{
+    display: flex;
+    position: relative;
+}
+.newtext{
+    visibility: hidden;
+}
+.newtext1{
+    visibility: hidden;
+}
+.newtext2{
+    visibility: hidden;
+}
+.newtext3{
+    visibility: hidden;
+}
+.info{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(40, 1, 139, 0.756);
+    border: 4px solid rgba(0, 0, 0, 0.751);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+   transition: 0.8s;
+    position: relative;
+    transform: translateX(95px);
+}
+.info:hover{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(73, 156, 17);
+    border: 4px solid rgba(0, 0, 0, 0.751);
+    .txt{
+        visibility: hidden;
+        font-size: 0px;
+    }
+    .newtext{
+        visibility: visible;
+        
+    }
+}
+.info1{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(40, 1, 139, 0.756);
+    border: 4px solid rgba(0, 0, 0, 0.751);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+   transition: 0.8s;
+    position: relative;
+    transform: translateX(185px);
+}
+.info1:hover{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(73, 156, 17);
+    border: 4px solid rgba(0, 0, 0, 0.751);
+    .txt{
+        visibility: hidden;
+        font-size: 0px;
+    }
+    .newtext1{
+        visibility: visible;
+        
+    
+    }
+}
+.info2{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(40, 1, 139, 0.756);
+    border: 4px solid rgba(0, 0, 0, 0.751);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+   transition: 0.8s;
+    position: relative;
+    transform: translateX(285px);
+}
+.info2:hover{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(73, 156, 17);
+    border: 4px solid rgba(0, 0, 0, 0.751);
+    .txt{
+        visibility: hidden;
+        font-size: 0px;
+    }
+    .newtext2{
+        visibility: visible;
+        
+    }
+}
+.info3{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(40, 1, 139, 0.756);
+    border: 4px solid rgba(0, 0, 0, 0.751);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+   
+   transition: 0.8s;
+    position: relative;
+    transform: translateX(385px);
+}
+.info3:hover{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(73, 156, 17);
+    border: 4px solid rgba(0, 0, 0, 0.751);
+   
+    .txt{
+        visibility: hidden;
+        font-size: 0px;
+    }
+    .newtext3{
+        visibility: visible;
+        
+    }
+}
+@media (max-width:1352px) {
+    .outinfo{
+        
+        width: 98%;
+        display: block;
+        
+    }
+}
+.des{
+    display: flex;
+    
+    transform:translateY(20px);
+    align-items: center;
+    
+    
+}
+.img{
+    margin: 100px;
+    width: 300px;
+    height: 350px;
+}
+#maininfo{
+    margin: 25px;
+    background-color: yellow;
+    color:black;
+    border-radius: 5px;
+    
+}
+#infobox{
+    width: 400px;
+    height: 500px;
+    border: 4px solid black;
+    background-color: rgba(179, 23, 23, 0.923);
+    margin: 25px;
+}
+
+#next{
+   width: 200px;
+   height: 300px;
+   border: 3px solid black;
+   border-radius: 25px;
+   background-color: blue;
+   margin-left: 30px;
+   transform: translateY(-375px);
+   text-align: center;
+}
+#txt{
+    background: red;
+    margin: 25px;
+}
